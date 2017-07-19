@@ -3,7 +3,11 @@ Discord bot that provides info about requested Pokemon in Pokemon Go.
 
 # Getting started
 
-I'm using node v6.11.0.
+Recommended node version: 6.11.0.
+
+Export your Discord bot token first:
+`export DISCORD_TOKEN=abcxyz.abcxyz`
+
 ```
 npm install
 node bot.js
