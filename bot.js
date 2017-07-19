@@ -49,13 +49,13 @@ client.on('ready', () => {
 
 client.on('message', message => {
     try {
-        if (message.content.lastIndexOf('!cp', 0) === 0) {
+        if (message.content.toLowerCase().lastIndexOf('!cp', 0) === 0) {
             var pokemon = message.content.split(" ")[1].toLowerCase();
             var reply = getCP(pokemon);
             message.channel.send(reply);
         }
 
-        if (message.content.lastIndexOf('!counter', 0) === 0) {
+        if (message.content.toLowerCase().lastIndexOf('!counter', 0) === 0) {
             var pokemon = message.content.split(" ")[1].toLowerCase();
             var reply = getCounters(pokemon);
             message.channel.send(reply);
