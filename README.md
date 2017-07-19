@@ -13,13 +13,15 @@ npm install
 node bot.js
 ```
 
-# Bot commands
+# Bot commands by example
 
-*!cp machamp*
+**!cp machamp**
+
 `Machamp CP @ Lv20: [1574 min, 1650 max]`
 
-*!counter tyranitar*
-`Counters for Tyranitar :tyranitar:: Machamp, Poliwrath, Heracross, Primeape, Hitmonlee, Vaporeon`
+**!counter tyranitar**
+
+`Counters for Tyranitar: Machamp, Poliwrath, Heracross, Primeape, Hitmonlee, Vaporeon`
 
 
 Written for the (https://discord.gg/czBukB)[SF PoGo Raids Meetup Discord] by Allison Wilbur
