@@ -25,16 +25,25 @@ function appropriateChannel(message) {
 
 // Returns a String list of recommended counters for the given Pokemon
 function getCounters(pokemon) {
-    var counterList = counters[pokemon];
-    if (counterList == null) {
+    var counterHash = counters[pokemon];
+    if (counterHash == null || Object.keys(counterHash).length == 0) {
         return "Sorry, counters for "+pokemon.capitalize()+" aren't availabe at this time";
     }
     var reply = "";
-    for (var i=0; i<counterList.length; i++) {
-        reply = reply + counterList[i].capitalize() + ", ";
+    for (counter in counterHash) {
+        // Underline when the counter Pokemon have movesets listed
+        var u = "";
+        if (Object.keys(counterHash[counter]).length > 0) {
+            isLegendary = true; // For now, having a hash bigger than 0 means it's legendary. No movesets for regular raid bosses yet
+            u = "__";
+        }
+        reply = reply + "\n" + u + counter.capitalize() + u;
+        for (var i=0; i<counterHash[counter].length; i++) {
+            if (i == 0) reply = reply + "\n"; // add a newline between 
+            reply = reply + "- "+counterHash[counter][i]+"\n";
+        }
     }
-    reply = reply.slice(0, -2);
-    reply = "Counters for **" + pokemon.capitalize() + "** :" + pokemon + ":: " + reply;
+    reply = "Counters for **" + pokemon.capitalize() + "** :" + pokemon + "::\n" + reply;
     return reply;
 }
 
@@ -43,6 +52,8 @@ function getCP(pokemon) {
     // Check if Pokemon is valid
     try {
         row = cp[pokemon];
+        if (row == null || row == undefined) throw Exception;
+
     } catch(e) {
         return "Sorry, CP for " + pokemon.capitalize() + " isn't available at this time";
     }
