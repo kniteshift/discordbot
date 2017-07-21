@@ -1,1 +1,542 @@
-{"arcanine":{"golem":{},"rhydon":{},"vaporeon":{},"feraligatr":{},"kingdra":{},"dragonite":{},"tyranitar":{}},"alakazam":{"tyranitar":{},"houndoom":{},"scizor":{},"pinsir":{},"dragonite":{},"gyarados":{},"snorlax":{}},"machamp":{"espeon":{},"alakazam":{},"exeggutor":{},"dragonite":{},"gengar":{},"charizard":{}},"gengar":{"tyranitar":{},"houndoom":{},"golem":{},"rhydon":{},"gyarados":{},"dragonite":{},"crobat":{}},"vaporeon":{"exeggutor":{},"venusaur":{},"tangela":{},"victreebel":{},"vileplume":{},"jolteon":{},"sunflora":{}},"jolteon":{"golem":{},"rhydon":{},"sandslash":{},"donphan":{},"nidoking":{},"dragonite":{},"gengar":{}},"flareon":{"omastar":{},"golem":{},"rhydon":{},"vaporeon":{},"feraligatr":{},"gyarados":{},"dragonite":{}},"venusaur":{"flareon":{},"charizard":{},"arcanine":{},"dragonite":{},"exeggutor":{},"espeon":{},"alakazam":{}},"charizard":{"golem":{},"omastar":{},"rhydon":{},"tyranitar":{},"vaporeon":{},"feraligatr":{},"kingdra":{}},"blastoise":{"jolteon":{},"venusaur":{},"exeggutor":{},"victreebel":{},"vileplume":{},"tangela":{},"magneton":{}},"rhydon":{"vaporeon":{},"exeggutor":{},"venusaur":{},"victreebel":{},"vileplume":{},"tangela":{},"feraligatr":{}},"lapras":{"machamp":{},"heracross":{},"jolteon":{},"magneton":{},"exeggutor":{},"poliwrath":{},"omastar":{}},"snorlax":{"machamp":{},"heracross":{},"ursaring":{},"dragonite":{},"poliwrath":{},"alakazam":{}},"tyranitar":{"machamp":{},"poliwrath":{},"heracross":{},"primeape":{},"hitmonlee":{},"vaporeon":{}},"mewtwo":{"tyranitar":["Bite + Crunch","Bite + Stone Edge"],"gengar":["Any + Shadow Ball","Shadow Claw + Any"],"houndoom":["Snarl + Foul Play"],"pinsir":["Bug Bite + X Scissor","Fury Cutter + X Scissor"],"scizor":["Fury Cutter + X Scissor"]},"mew":{"tyranitar":["Bite + Crunch","Bite + Stone Edge"],"gengar":["Any + Shadow Ball","Shadow Claw + Any"],"houndoom":["Snarl + Foul Play"],"pinsir":["Bug Bite + X Scissor","Fury Cutter + X Scissor"],"scizor":["Fury Cutter + X Scissor"]},"articuno":{"omastar":["Rock Throw + Rock Slide","Rock Throw + Rock Blast"],"golem":["Rock Throw + Stone Edge","Rock Throw + Rock Blast"],"tyranitar":["Any + Stone Edge"],"flareon":["Fire Spin + Overheat","Fire Spin + Flamethrower"]},"zapdos":{"golem":["Rock Throw + Stone Edge","Rock Throw + Rock Blast"],"piloswine":["Any + Avalanche"],"tyranitar":["Bite + Stone Edge"],"jynx":["Frost Breath + Avalanche"]},"moltres":{"omastar":["Rock Throw + Rock Slide","Rock Throw + Rock Blast","Water Gun + Rock Slide","Water Gun + Rock Blast"],"golem":["Rock Throw + Stone Edge","Rock Throw + Rock Blast"],"tyranitar":["Bite + Stone Edge"],"sudowoodo":["Rock Throw + Rock Slide","Rock Throw + Stone Edge"]},"ho-oh":{"omastar":["Rock Throw + Rock Slide","Rock Throw + Rock Blast","Water Gun + Rock Slide","Water Gun + Rock Blast"],"golem":["Rock Throw + Stone Edge","Rock Throw + Rock Blast"],"tyranitar":["Bite + Stone Edge"],"jolteon":["Thunder Shock + Thunderbolt","Thunder Shock + Discharge"]},"lugia":{"tyranitar":["Bite + Crunch","Bite + Stone Edge"],"gengar":["Any + Shadow Ball","Shadow Claw + Any"],"jolteon":["Thunder Shock + Thunderbolt"],"houndoom":["Snarl + Foul Play","Thunder Shock + Discharge"]},"celebi":{"pinsir":["Bug Bite + X Scissor","Fury Cutter + X Scissor"],"scizor":["Fury Cutter + X Scissor"],"gengar":["Any + Shadow Ball","Shadow Claw + Any"],"tyranitar":["Bite + Crunch","Bite + Stone Edge"],"flareon":["Fire Spin + Overheat","Fire Spin + Flamethrower"]},"suicune":{"exeggutor":["Any + Solar Beam","Any + Seed Bomb"],"venusaur":["Any + Solar Beam","Any + Petal Blizzard"],"jolteon":["Thunder Shock + Thunderbolt","Thunder Shock + Discharge"],"tangela":["Vine Whip + Grass Knot","Vine Whip + Solar Beam"]},"raikou":{"rhydon":["Mud Slap + Earthquake","Mud Slap + Stone Edge"],"golem":["Mud Slap + Earthquake","Mud Slap + Stone Edge","Mud Shot + Earthquake","Mud Shot + Stone Edge"],"dragonite":["Dragon Tail + Dragon Claw","Dragon Tail + Outrage","Dragon Breath + Dragon Claw","Dragon Breath + Outrage"],"machamp":["Counter + Dynamic Punch","Counter + Close Combat","Karate Chop + Dynamic Punch","Karate Chop + Close Combat"]},"entei":{"omastar":["Rock Throw + Rock Slide","Rock Throw + Rock Blast","Water Gun + Rock Slide","Water Gun + Rock Blast"],"vaporeon":["Water Gun + Hydro Pump","Water Gun + Aqua Tail"],"golem":["Any"],"tyranitar":["Bite + Stone Edge"]}}
+{
+   "arcanine":{
+      "golem":{
+
+      },
+      "rhydon":{
+
+      },
+      "vaporeon":{
+
+      },
+      "feraligatr":{
+
+      },
+      "kingdra":{
+
+      },
+      "dragonite":{
+
+      },
+      "tyranitar":{
+
+      }
+   },
+   "alakazam":{
+      "tyranitar":{
+
+      },
+      "houndoom":{
+
+      },
+      "scizor":{
+
+      },
+      "pinsir":{
+
+      },
+      "dragonite":{
+
+      },
+      "gyarados":{
+
+      },
+      "snorlax":{
+
+      }
+   },
+   "machamp":{
+      "espeon":{
+
+      },
+      "alakazam":{
+
+      },
+      "exeggutor":{
+
+      },
+      "dragonite":{
+
+      },
+      "gengar":{
+
+      },
+      "charizard":{
+
+      }
+   },
+   "gengar":{
+      "tyranitar":{
+
+      },
+      "houndoom":{
+
+      },
+      "golem":{
+
+      },
+      "rhydon":{
+
+      },
+      "gyarados":{
+
+      },
+      "dragonite":{
+
+      },
+      "crobat":{
+
+      }
+   },
+   "vaporeon":{
+      "exeggutor":{
+
+      },
+      "venusaur":{
+
+      },
+      "tangela":{
+
+      },
+      "victreebel":{
+
+      },
+      "vileplume":{
+
+      },
+      "jolteon":{
+
+      },
+      "sunflora":{
+
+      }
+   },
+   "jolteon":{
+      "golem":{
+
+      },
+      "rhydon":{
+
+      },
+      "sandslash":{
+
+      },
+      "donphan":{
+
+      },
+      "nidoking":{
+
+      },
+      "dragonite":{
+
+      },
+      "gengar":{
+
+      }
+   },
+   "flareon":{
+      "omastar":{
+
+      },
+      "golem":{
+
+      },
+      "rhydon":{
+
+      },
+      "vaporeon":{
+
+      },
+      "feraligatr":{
+
+      },
+      "gyarados":{
+
+      },
+      "dragonite":{
+
+      }
+   },
+   "venusaur":{
+      "flareon":{
+
+      },
+      "charizard":{
+
+      },
+      "arcanine":{
+
+      },
+      "dragonite":{
+
+      },
+      "exeggutor":{
+
+      },
+      "espeon":{
+
+      },
+      "alakazam":{
+
+      }
+   },
+   "charizard":{
+      "golem":{
+
+      },
+      "omastar":{
+
+      },
+      "rhydon":{
+
+      },
+      "tyranitar":{
+
+      },
+      "vaporeon":{
+
+      },
+      "feraligatr":{
+
+      },
+      "kingdra":{
+
+      }
+   },
+   "blastoise":{
+      "jolteon":{
+
+      },
+      "venusaur":{
+
+      },
+      "exeggutor":{
+
+      },
+      "victreebel":{
+
+      },
+      "vileplume":{
+
+      },
+      "tangela":{
+
+      },
+      "magneton":{
+
+      }
+   },
+   "rhydon":{
+      "vaporeon":{
+
+      },
+      "exeggutor":{
+
+      },
+      "venusaur":{
+
+      },
+      "victreebel":{
+
+      },
+      "vileplume":{
+
+      },
+      "tangela":{
+
+      },
+      "feraligatr":{
+
+      }
+   },
+   "lapras":{
+      "machamp":{
+
+      },
+      "heracross":{
+
+      },
+      "jolteon":{
+
+      },
+      "magneton":{
+
+      },
+      "exeggutor":{
+
+      },
+      "poliwrath":{
+
+      },
+      "omastar":{
+
+      }
+   },
+   "snorlax":{
+      "machamp":{
+
+      },
+      "heracross":{
+
+      },
+      "ursaring":{
+
+      },
+      "dragonite":{
+
+      },
+      "poliwrath":{
+
+      },
+      "alakazam":{
+
+      }
+   },
+   "tyranitar":{
+      "machamp":{
+
+      },
+      "poliwrath":{
+
+      },
+      "heracross":{
+
+      },
+      "primeape":{
+
+      },
+      "hitmonlee":{
+
+      },
+      "vaporeon":{
+
+      }
+   },
+   "mewtwo":{
+      "tyranitar":[
+         "Bite + Crunch",
+         "Bite + Stone Edge"
+      ],
+      "gengar":[
+         "Any + Shadow Ball",
+         "Shadow Claw + Any"
+      ],
+      "houndoom":[
+         "Snarl + Foul Play"
+      ],
+      "pinsir":[
+         "Bug Bite + X Scissor",
+         "Fury Cutter + X Scissor"
+      ],
+      "scizor":[
+         "Fury Cutter + X Scissor"
+      ]
+   },
+   "mew":{
+      "tyranitar":[
+         "Bite + Crunch",
+         "Bite + Stone Edge"
+      ],
+      "gengar":[
+         "Any + Shadow Ball",
+         "Shadow Claw + Any"
+      ],
+      "houndoom":[
+         "Snarl + Foul Play"
+      ],
+      "pinsir":[
+         "Bug Bite + X Scissor",
+         "Fury Cutter + X Scissor"
+      ],
+      "scizor":[
+         "Fury Cutter + X Scissor"
+      ]
+   },
+   "articuno":{
+      "omastar":[
+         "Rock Throw + Rock Slide",
+         "Rock Throw + Rock Blast"
+      ],
+      "golem":[
+         "Rock Throw + Stone Edge",
+         "Rock Throw + Rock Blast"
+      ],
+      "tyranitar":[
+         "Any + Stone Edge"
+      ],
+      "flareon":[
+         "Fire Spin + Overheat",
+         "Fire Spin + Flamethrower"
+      ]
+   },
+   "zapdos":{
+      "golem":[
+         "Rock Throw + Stone Edge",
+         "Rock Throw + Rock Blast"
+      ],
+      "piloswine":[
+         "Any + Avalanche"
+      ],
+      "tyranitar":[
+         "Bite + Stone Edge"
+      ],
+      "jynx":[
+         "Frost Breath + Avalanche"
+      ]
+   },
+   "moltres":{
+      "omastar":[
+         "Rock Throw + Rock Slide",
+         "Rock Throw + Rock Blast",
+         "Water Gun + Rock Slide",
+         "Water Gun + Rock Blast"
+      ],
+      "golem":[
+         "Rock Throw + Stone Edge",
+         "Rock Throw + Rock Blast"
+      ],
+      "tyranitar":[
+         "Bite + Stone Edge"
+      ],
+      "sudowoodo":[
+         "Rock Throw + Rock Slide",
+         "Rock Throw + Stone Edge"
+      ]
+   },
+   "ho-oh":{
+      "omastar":[
+         "Rock Throw + Rock Slide",
+         "Rock Throw + Rock Blast",
+         "Water Gun + Rock Slide",
+         "Water Gun + Rock Blast"
+      ],
+      "golem":[
+         "Rock Throw + Stone Edge",
+         "Rock Throw + Rock Blast"
+      ],
+      "tyranitar":[
+         "Bite + Stone Edge"
+      ],
+      "jolteon":[
+         "Thunder Shock + Thunderbolt",
+         "Thunder Shock + Discharge"
+      ]
+   },
+   "hooh":{
+      "omastar":[
+         "Rock Throw + Rock Slide",
+         "Rock Throw + Rock Blast",
+         "Water Gun + Rock Slide",
+         "Water Gun + Rock Blast"
+      ],
+      "golem":[
+         "Rock Throw + Stone Edge",
+         "Rock Throw + Rock Blast"
+      ],
+      "tyranitar":[
+         "Bite + Stone Edge"
+      ],
+      "jolteon":[
+         "Thunder Shock + Thunderbolt",
+         "Thunder Shock + Discharge"
+      ]
+   },
+   "lugia":{
+      "tyranitar":[
+         "Bite + Crunch",
+         "Bite + Stone Edge"
+      ],
+      "gengar":[
+         "Any + Shadow Ball",
+         "Shadow Claw + Any"
+      ],
+      "jolteon":[
+         "Thunder Shock + Thunderbolt"
+      ],
+      "houndoom":[
+         "Snarl + Foul Play",
+         "Thunder Shock + Discharge"
+      ]
+   },
+   "celebi":{
+      "pinsir":[
+         "Bug Bite + X Scissor",
+         "Fury Cutter + X Scissor"
+      ],
+      "scizor":[
+         "Fury Cutter + X Scissor"
+      ],
+      "gengar":[
+         "Any + Shadow Ball",
+         "Shadow Claw + Any"
+      ],
+      "tyranitar":[
+         "Bite + Crunch",
+         "Bite + Stone Edge"
+      ],
+      "flareon":[
+         "Fire Spin + Overheat",
+         "Fire Spin + Flamethrower"
+      ]
+   },
+   "suicune":{
+      "exeggutor":[
+         "Any + Solar Beam",
+         "Any + Seed Bomb"
+      ],
+      "venusaur":[
+         "Any + Solar Beam",
+         "Any + Petal Blizzard"
+      ],
+      "jolteon":[
+         "Thunder Shock + Thunderbolt",
+         "Thunder Shock + Discharge"
+      ],
+      "tangela":[
+         "Vine Whip + Grass Knot",
+         "Vine Whip + Solar Beam"
+      ]
+   },
+   "raikou":{
+      "rhydon":[
+         "Mud Slap + Earthquake",
+         "Mud Slap + Stone Edge"
+      ],
+      "golem":[
+         "Mud Slap + Earthquake",
+         "Mud Slap + Stone Edge",
+         "Mud Shot + Earthquake",
+         "Mud Shot + Stone Edge"
+      ],
+      "dragonite":[
+         "Dragon Tail + Dragon Claw",
+         "Dragon Tail + Outrage",
+         "Dragon Breath + Dragon Claw",
+         "Dragon Breath + Outrage"
+      ],
+      "machamp":[
+         "Counter + Dynamic Punch",
+         "Counter + Close Combat",
+         "Karate Chop + Dynamic Punch",
+         "Karate Chop + Close Combat"
+      ]
+   },
+   "entei":{
+      "omastar":[
+         "Rock Throw + Rock Slide",
+         "Rock Throw + Rock Blast",
+         "Water Gun + Rock Slide",
+         "Water Gun + Rock Blast"
+      ],
+      "vaporeon":[
+         "Water Gun + Hydro Pump",
+         "Water Gun + Aqua Tail"
+      ],
+      "golem":[
+         "Any"
+      ],
+      "tyranitar":[
+         "Bite + Stone Edge"
+      ]
+   }
+}

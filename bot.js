@@ -23,6 +23,14 @@ function appropriateChannel(message) {
     return true;
 }
 
+function getEmoji(pokemon) {
+    var emoji = ":" + pokemon + ":";
+    if (pokemon == 'ho-oh') {
+        emoji = ":hooh"; // special case for ho-oh
+    }
+    return emoji;
+}
+
 // Returns a String list of recommended counters for the given Pokemon
 function getCounters(pokemon) {
     var counterHash = counters[pokemon];
@@ -43,7 +51,8 @@ function getCounters(pokemon) {
             reply = reply + "- "+counterHash[counter][i]+"\n";
         }
     }
-    reply = "Counters for **" + pokemon.capitalize() + "** :" + pokemon + "::\n" + reply;
+
+    reply = "Counters for **" + pokemon.capitalize() + "** " + getEmoji(pokemon) +"\n" + reply;
     return reply;
 }
 
@@ -57,7 +66,7 @@ function getCP(pokemon) {
     } catch(e) {
         return "Sorry, CP for " + pokemon.capitalize() + " isn't available at this time";
     }
-    return "**"+pokemon.capitalize()+"** :"+pokemon+": Raid CP @ Lv20: [min: **"+row["min"]+"**, max: **"+row["max"]+"**]";
+    return "**"+pokemon.capitalize()+"** "+getEmoji(pokemon)+" Raid CP @ Lv20: [min: **"+row["min"]+"**, max: **"+row["max"]+"**]";
 }
 
 // Bot setup
