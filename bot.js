@@ -8,6 +8,7 @@ const BOT_CHANNEL = "professor-willow" // restrict bot usage to this channel
 var fs = require('fs');
 var counters = JSON.parse(fs.readFileSync("counters.json"));
 var cp = JSON.parse(fs.readFileSync("cp.json"));
+var emoji = JSON.parse(fs.readFileSync("emoji.json"));
 
 // ** Helper functions: **
 // Capitalizes the first word of input, for display purposes
@@ -24,11 +25,17 @@ function appropriateChannel(message) {
 }
 
 function getEmoji(pokemon) {
-    var emoji = ":" + pokemon + ":";
     if (pokemon == 'ho-oh') {
-        emoji = ":hooh"; // special case for ho-oh
+        pokemon = "hooh"; // special case for ho-oh
     }
-    return emoji;
+    var emojiStr = "";
+    try {
+        emojiStr = emoji[pokemon];
+    }
+    catch(e) {
+        return ""; // no emoji for this pokemon, don't print anything
+    }
+    return emojiStr + " "; // add a space to keep things lookin' good
 }
 
 // Returns a String list of recommended counters for the given Pokemon
@@ -66,7 +73,7 @@ function getCP(pokemon) {
     } catch(e) {
         return "Sorry, CP for " + pokemon.capitalize() + " isn't available at this time";
     }
-    return "**"+pokemon.capitalize()+"** "+getEmoji(pokemon)+" Raid CP @ Lv20: [min: **"+row["min"]+"**, max: **"+row["max"]+"**]";
+    return "**"+pokemon.capitalize()+"** "+getEmoji(pokemon)+"Raid CP @ Lv20: [min: **"+row["min"]+"**, max: **"+row["max"]+"**]";
 }
 
 // Bot setup
