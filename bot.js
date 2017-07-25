@@ -42,7 +42,7 @@ function getEmoji(pokemon) {
 function getCounters(pokemon) {
     var counterHash = counters[pokemon];
     if (counterHash == null || Object.keys(counterHash).length == 0) {
-        return "Sorry, counters for "+pokemon.capitalize()+" aren't availabe at this time";
+        return "Sorry, counters for "+pokemon.capitalize()+" aren't available at this time";
     }
     var reply = "";
     for (counter in counterHash) {

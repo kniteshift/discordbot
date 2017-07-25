@@ -451,11 +451,11 @@
          "Shadow Claw + Any"
       ],
       "jolteon":[
-         "Thunder Shock + Thunderbolt"
+         "Thunder Shock + Thunderbolt",
+         "Thunder Shock + Discharge"
       ],
       "houndoom":[
          "Snarl + Foul Play",
-         "Thunder Shock + Discharge"
       ]
    },
    "celebi":{
