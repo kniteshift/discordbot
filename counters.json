@@ -357,16 +357,25 @@
          "Rock Throw + Rock Slide",
          "Rock Throw + Rock Blast"
       ],
-      "golem":[
-         "Rock Throw + Stone Edge",
-         "Rock Throw + Rock Blast"
-      ],
       "tyranitar":[
          "Any + Stone Edge"
       ],
       "flareon":[
          "Fire Spin + Overheat",
          "Fire Spin + Flamethrower"
+      ],
+      "golem":[
+         "Rock Throw + Stone Edge",
+         "Rock Throw + Rock Blast"
+      ],
+      "moltres":[
+         "Any"
+      ],
+      "arcanine":[
+         "Fire Fang + Fire Blast / Wild Charge"
+      ],
+      "typhlosion":[
+         "Ember + Fire Blast / Overheat"
       ]
    },
    "zapdos":{
@@ -442,21 +451,39 @@
       ]
    },
    "lugia":{
-      "tyranitar":[
-         "Bite + Crunch",
-         "Bite + Stone Edge"
-      ],
-      "gengar":[
-         "Any + Shadow Ball",
-         "Shadow Claw + Any"
-      ],
-      "jolteon":[
-         "Thunder Shock + Thunderbolt",
-         "Thunder Shock + Discharge"
-      ],
-      "houndoom":[
-         "Snarl + Foul Play",
-      ]
+      "stats": {
+         "Atk": "164",
+         "Def": "267",
+         "HP": "12500",
+         "CP": "42753"
+      },
+      "fast": ["Extrasensory", "Dragon Tail"],
+      "charge": ["Future Sight", "Sky Attack", "Hydro Pump"],
+      "weaknesses": ["Electric", "Rock", "Dark", "Ghost", "Ice"],
+      "resistances": ["Grass", "Ground(2x)", "Fighting(2x)"],
+      "counters": {
+         "Overall": {
+            "tyranitar": ["Bite + Stone Edge / Crunch"],
+            "zapdos": ["Any"],
+            "articuno": ["Frost Breath + Blizzard / Ice Beam"],
+            "dragonite": ["Dragon Tail / Steel Wing + Outrage"]
+         },
+         "Sky Attack": {
+            "golem": ["Rock Throw + Stone Edge / Rock Blast"],
+            "jolteon": ["Thundershock + Thunderbolt / Discharge"],
+            "magneton": ["Any Electric"]
+         },
+         "Hydro Pump": {
+            "lapras": ["Frost Breath + Blizzard / Ice Beam"],
+            "cloyster": ["Icy Breath + Blizzard / Avalanche"],
+            "jynx": ["Frost Breath + Avalanche"]
+         },
+         "Future Sight": {
+            "houndoom": ["Snarl + Foul Play"],
+            "golem": ["Rock Throw + Stone Edge / Rock Blast"],
+            "jynx": ["Frost Breath + Avalanche"]
+         }
+      }
    },
    "celebi":{
       "pinsir":[

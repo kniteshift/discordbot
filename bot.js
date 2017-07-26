@@ -38,6 +38,14 @@ function getEmoji(pokemon) {
     return emojiStr + " "; // add a space to keep things lookin' good
 }
 
+function formatList(list, separator=",") {
+    var listStr = "";
+    for (var i=0; i<list.length; i++) {
+        listStr = listStr + list[i] + separator + " "
+    }
+    return listStr.slice(0, (-1 * separator.length) - 1);
+}
+
 // Returns a String list of recommended counters for the given Pokemon
 function getCounters(pokemon) {
     var counterHash = counters[pokemon];
@@ -51,6 +59,33 @@ function getCounters(pokemon) {
         if (Object.keys(counterHash[counter]).length > 0) {
             isLegendary = true; // For now, having a hash bigger than 0 means it's legendary. No movesets for regular raid bosses yet
             u = "__";
+            if ("stats" in counterHash) { // this is the updated format for Lugia only right now
+                reply = "**" + pokemon.capitalize() + "** " + getEmoji(pokemon) + " ";
+                // stats
+                for (stat in counterHash["stats"]) {
+                    reply = reply + stat + " **" + counterHash["stats"][stat] + "** | "
+                }
+                reply = reply.slice(0, -2) + "\n";
+                // fast moves
+                reply = reply + "[ " + formatList(counterHash["fast"], " /") + " -- ";
+                // charge moves
+                reply = reply + formatList(counterHash["charge"], " /") + " ]\n\n";
+                // weaknesses
+                reply = reply + "*Weaknesses*: " + formatList(counterHash["weaknesses"]) + "\n";
+                // resistances
+                reply = reply + "*Resistances*: " + formatList(counterHash["resistances"]) + "\n\n";
+                // counters
+                for (counterType in counterHash["counters"]) {
+                    reply = reply + "**" + counterType + " Counters**\n";
+                    for (pkmnName in counterHash["counters"][counterType]) {
+                        for (var i=0; i<counterHash["counters"][counterType][pkmnName].length; i++) {
+                            reply = reply + "- __" + pkmnName.capitalize() + "__: " + counterHash["counters"][counterType][pkmnName][i] + "\n";
+                        }
+                    }
+                    reply = reply + "\n";
+                }
+                return reply;
+            }
         }
         reply = reply + "\n" + u + counter.capitalize() + u;
         for (var i=0; i<counterHash[counter].length; i++) {
